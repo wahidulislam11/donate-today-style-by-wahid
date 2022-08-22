@@ -107,7 +107,13 @@ body{
 
     .other-amount{
         text-align: center;
+        margin-bottom: 0%;
         }
+    .line{
+        margin-bottom: 10%;
+        width: 800px;
+
+    }
     .hard-1{
         text-align: left;
         width: 25%;
@@ -115,6 +121,7 @@ body{
         background-color: cornflowerblue;
         margin-left: 30px;
         padding: 20px;
+        border-radius: 30px;
     }
     .hard-2{
         text-align: left;
@@ -123,6 +130,7 @@ body{
         background-color: coral;
         margin-left: 30px;
         padding: 20px;
+        border-radius: 30px;
     }
     .hard-3{
         text-align: left;
@@ -132,6 +140,7 @@ body{
         background-color: antiquewhite;
         margin-left: 30px;
         padding: 20px;
+        border-radius: 30px;
     }
     .part-5{
         display: flex;
@@ -161,6 +170,7 @@ body{
 
     .part-6{
         display: flex;
+    
     }
     .side-img img{
         width: 80%;
@@ -249,4 +259,41 @@ body{
     }
     .humble2{
         font-size: 15px;
+        color: wheat;
+    }
+    .email{
+        margin: 0 0 10px;
+        padding: 0;
+        color: #fff;
+        font-size: 24px;
+    }
+    .for-background{
+        width: 50%;
+        padding: 80px 70px;
+       margin-left: 18%;
+       margin-bottom: 8%;
+       margin-top: 8%;
+        border: 0 solid;
+        background: #FEF3D2 
+        ;
+    
+        
+        
+    }
+    input{
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    .Subscribe-buttom{
+        color: wheat;
+        background-color: tomato;
+    }
+    .email-section{
+        text-align: center;
     }
